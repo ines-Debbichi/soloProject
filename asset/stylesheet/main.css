@@ -1,0 +1,190 @@
+body{
+	width: 100%;
+}
+
+
+
+    
+
+
+.nav1{
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+
+}
+
+.barmenu{
+	padding:16px 16px;
+		float:left;
+		width:auto;
+		border:none;
+		display:block;
+		outline:0
+}
+.barbutton:hover
+{
+	color:#000;
+	background-color:#ccc;
+	font: 15 px ,sans-serif;
+
+}
+
+
+
+#m{
+	
+	height: 800px;
+	width: 100%;
+}
+
+#imm{
+	
+	height: 300px;
+	width: 3000px;
+}
+#m:hover {
+	opacity: 0.5;
+}
+#imm:hover {
+	opacity: 0.5;
+}
+
+#sec1 {
+
+
+  	float: right;
+  	padding: 5px 5px 5px 5px;
+  		margin: 10px 10px 20px 20px;
+  	width: 100px;
+	height: 600px;
+}
+#sec2 {
+
+	margin: 0px 0px 0px 0px;
+		float: center;
+		width: 300px;
+	    height:300px;
+	     	padding: 20px 20px 20px 20px;
+}
+.f
+{
+
+
+	margin: 0px 0px 0px 0px;
+	
+	display: flex;
+		bottom: 10px;
+		 	
+		 		justify-content:  center;
+}
+#list{
+	font-weight: bold;
+
+}
+#im{
+	display: flex;
+	float: right;
+	width: 70px;
+	height: 70px;
+	padding-right: 10px;
+
+}
+
+
+
+nav{
+	width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: skyblue;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ height: 100px
+  text-align: center;
+  font-family: arial;
+ 
+
+}
+
+.price {
+  color: grey;
+  font-size: 12px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.cards {
+	padding-left: 90px;
+
+	  display:inline-flex;
+
+
+}
+
+
+table{
+	width: 100%;
+	display: table;
+	font-weight: bold;
+	
+}
+tr{
+	display: table-row;
+}
+th
+	{display: table-cell}
+
+thead
+	{display: table-header-group}
+table, th, td {
+  border: 1px solid;
+}
+
+
+#account{
+	
+	justify-items: center;
+}

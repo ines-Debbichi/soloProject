@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html>      
+<head>
+ <title>SmartTECH</title>
+  <link rel="stylesheet" type="text/css" href="asset/stylesheet/main.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
+</head>     
+<body>
+
+  <div class="top">
+     <div class="nav1 nav2 nav3" id="mymenu">
+       <img src="https://thumbs.dreamstime.com/b/phone-176749725.jpg" id="im">
+     <div>  
+      <a href="#home" class=" barmenu barbutton"> HOME</a>
+      <a href="#product" class="barmenu barbutton" > PRODUCT</a>
+     <a href="#account" class=" barmenu barbutton">ACCOUNT</a>
+
+
+    
+    
+ 
+     </div>
+    
+  </div>
+
+  <header class="h">
+    <img src="asset/stylesheet/imagk.jpg" id="m">
+  </header> 
+   
+ 
+<section id='sec2' style="padding:128px 16px;">
+    
+  
+<div class='cards' >
+          <div class="card" id="car" style="margin-left:64px: ;width:300px;height: 100px;">
+                <img src="asset/stylesheet/imag1.jpeg" alt="portable-iphone-14-pro-max" style="width:100%;">
+                <h1>portable-iphone-14-pro-max</h1>
+                <p class="price">$19.99</p>
+                <p>portable-iphone-14-pro-max vvvvv</p>
+                <p><button>Add to Cart</button></p>
+        </div>
+           <div class="card" id="car1"  style="margin-left:64px;width:300px;height: 100px;" >
+                <img src="asset/stylesheet/imag2.jpeg" alt="portable-iphone-14-pro-max" style="width:100%;">
+                <h1>portable-iphone-14-pro-max</h1>
+                <p class="price">$19.99</p>
+                <p>portable-iphone-14-pro-max vvvvv</p>
+                <p><button>Add to Cart</button></p>
+        </div>
+         <div class="card" id="car2" style="margin-left:64px;width:300px;height: 100px" >
+              <img src="asset/stylesheet/iphone.jpg"alt="portable-iphone-14-pro-max" style="width:100%;">
+              <h1>portable-iphone-14-pro-max</h1>
+              <p class="price">$19.99</p>
+              <p>portable-iphone-14-pro-max vvvvv</p>
+              <p><button>Add to Cart</button></p>
+        </div>
+
+          <div class="card1" id="car" style="margin-left:64px: ;width:300px;height: 100px;">
+                <img src="asset/stylesheet/imag1.jpeg" alt="portable-iphone-14-pro-max" style="width:100%;">
+                <h1>portable-iphone-14-pro-max</h1>
+                <p class="price">$19.99</p>
+                <p>portable-iphone-14-pro-max vvvvv</p>
+                <p><button>Add to Cart</button></p>
+        </div>
+           <div class="card1" id="car1"  style="margin-left:64px;width:300px;height: 100px;" >
+                <img src="asset/stylesheet/imag1.jpeg" alt="portable-iphone-14-pro-max" style="width:100%;">
+                <h1>portable-iphone-14-pro-max</h1>
+                <p class="price">$19.99</p>
+                <p>portable-iphone-14-pro-max vvvvv</p>
+                <p><button>Add to Cart</button></p>
+        </div>
+         <div class="card1" id="car2" style="margin-left:64px;width:300px;height: 100px" >
+              <img src="asset/stylesheet/imag1.jpeg"alt="portable-iphone-14-pro-max" style="width:100%;">
+              <h1>portable-iphone-14-pro-max</h1>
+              <p class="price">$19.99</p>
+              <p>portable-iphone-14-pro-max vvvvv</p>
+              <p><button>Add to Cart</button></p>
+        </div>
+        <button id="myButton" onclick="donn()"style="width: 50px;height: 20px;">next</button>
+         <button id="myButton" onclick="per()"style="width: 70px;height: 20px;">perviouse</button>
+  
+</div>
+
+
+    
+    
+  </section>
+   
+  <section  style="padding:150px 16px;" id="product">
+     <h1> <em>Products page</em></h1>
+     <div class="line">
+         <div class="col">
+          <h2>list Products</h2>
+       
+    </div>
+       
+    </div>
+
+
+         <div class="line">
+         <div class="col">
+         <table id="prod" class="tab">
+           <thead>
+            <tr>
+              
+              <th id="nameP">Product Name</th>
+              <th id="dis">Disponibilité</th>
+              <th id="price">price</th>
+            </tr>
+             
+           </thead>
+         </table>
+         
+<button type="button" id="add"  onclick="addP()">Add</button>
+<button type="button" id="remove"  onclick="remove()">Remove</button>
+<button type="button" id="change"  onclick="change()">Change</button>
+       
+    </div>
+       
+    </div>
+
+  </section>
+
+
+
+ <section  style="padding:150px 16px;" class="acount">
+     <h1> <em>Account page</em></h1>
+     <div id="account">
+       <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" >
+       <label for="password"><b>Password</b></label>
+      <input type="text" placeholder="Enter Password" name="password" >
+       <label for="email"><b>email</b></label>
+      <input type="text" placeholder="Enter email" name="email" >
+    </div>
+
+  </section>
+ 
+  <footer class='f' style="padding-top:150px ;">
+     <img src="asset/stylesheet/pho.jpg" id="imm">
+
+
+ 
+</footer>
+ 
+ 
+
+
+</body>
+
+<script type="text/javascript">
+  
+  $('.card1').hide('slow');
+  $('.card').show('slow');
+  function donn(){
+    $('.card').hide('slow');
+  $('.card1').show('slow');
+  }
+  function per(){
+    $('.card1').hide('slow');
+  $('.card').show('slow');
+  }
+
+   
+         
+    function addP(){
+      $('#prod').append('("<tr>" + "<td>nokia </td>" + "<td>dispo</td>" + "<td>16$</td>" + "</tr>")')
+       $('#prod').append('("<tr>" + "<td>iphone </td>" + "<td>pro max14</td>" + "<td>19$</td>" + "</tr>")')
+      $('#prod').append('("<tr>" + "<td>iphone </td>" + "<td>pro max13</td>" + "<td>18$</td>" + "</tr>")')
+        $('#prod').append('("<tr>" + "<td>iphone</td>" + "<td>pro max12</td>" + "<td>11$</td>" + "</tr>")')
+
+    }
+    function remove(){
+       $('#prod').remove('("<tr>" + "<td>iphone </td>" + "<td>pro max14</td>" + "<td>19$</td>" + "</tr>")')
+      $('#prod').remove('("<tr>" + "<td>iphone </td>" + "<td>pro max13</td>" + "<td>18$</td>" + "</tr>")')
+        $('#prod').remove('("<tr>" + "<td>iphone</td>" + "<td>pro max12</td>" + "<td>11$</td>" + "</tr>")')
+    }
+     function change(){
+       $('#prod').html('("<tr>" + "<td>phone3 </td>" + "<td>smart divice</td>" + "<td>19$</td>" + "</tr>")')
+      $('#prod').html('("<tr>" + "<td>ipade1 </td>" + "<td>smart</td>" + "<td>18$</td>" + "</tr>")')
+        $('#prod').html('("<tr>" + "<td>nokia1</td>" + "<td>divice</td>" + "<td>11$</td>" + "</tr>")')
+    }
+
+</script>
+</html>
